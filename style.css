@@ -260,3 +260,26 @@ footer{
 .product{
     position:relative;
 }
+.offer-banner{
+    background:#ffcc00;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    padding:12px;
+    font-size:18px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.offer-banner{
+    animation:bannerMove 12s linear infinite;
+}
+
+@keyframes bannerMove{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
