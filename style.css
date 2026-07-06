@@ -229,3 +229,34 @@ footer{
 .slide.active{
     opacity:1;
 }
+.price{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.price del{
+    color:#888;
+    font-size:16px;
+}
+
+.price span{
+    color:#e60023;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.discount{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:red;
+    color:white;
+    padding:6px 12px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.product{
+    position:relative;
+}
