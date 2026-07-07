@@ -287,3 +287,7 @@ footer{
         transform:translateX(-100%);
     }
 }
+.wishlist.active{
+    background:red;
+    color:white;
+}
